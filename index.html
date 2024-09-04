@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Car Wash</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Local Car Wash</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero" data-aos="fade-up">
+        <div class="hero-content">
+            <h2>Experience the Best Car Wash in Town</h2>
+            <p>Quality service, modern equipment, and a splash of convenience.</p>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card" data-aos="fade-up">
+                    <img src="images/4.jpg" alt="Full Service Wash">
+                    <h3>Full Service Wash</h3>
+                    <p>Complete interior and exterior cleaning with a hand wash.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/6.jpg" alt="Detailing">
+                    <h3>Detailing</h3>
+                    <p>Deep clean and polish for that new car look, including interior shampoo.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/8.jpg" alt="Waxing">
+                    <h3>Waxing</h3>
+                    <p>Protect your car with a premium wax treatment for a glossy finish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-up">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We’ve been providing top-notch car wash services for over 10 years. Our commitment to quality and customer satisfaction is our top priority. Our team is passionate about making sure your vehicle looks its best.</p>
+            <img src="images/7.jpg" alt="Our Team">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-response"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local Car Wash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
